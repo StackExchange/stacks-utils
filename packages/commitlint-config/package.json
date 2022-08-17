@@ -1,0 +1,24 @@
+{
+    "name": "@stackoverflow/commitlint-config",
+    "version": "1.0.0",
+    "description": "Stacks CommitLint shared config",
+    "main": "index.js",
+    "author": "Stack Exchange Inc",
+    "license": "MIT",
+    "keywords": [
+        "stacks",
+        "commitlint",
+        "commitlint-config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StackExchange/stacks-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/StackExchange/stacks-utils/issues"
+    },
+    "homepage": "https://github.com/StackExchange/stacks-utils#readme",
+    "dependencies": {
+        "@commitlint/config-conventional": "^17.0.3"
+    }
+}

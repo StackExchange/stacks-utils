@@ -1,0 +1,6 @@
+{
+    "extends": "./packages/tsconfig/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./tmp"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "@stackoverflow/prettier-config",
+    "version": "1.0.0",
+    "description": "Stacks Prettier shared config",
+    "main": "index.js",
+    "author": "Stack Exchange Inc",
+    "license": "MIT",
+    "keywords": [
+        "stacks",
+        "prettier",
+        "prettier-config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StackExchange/stacks-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/StackExchange/stacks-utils/issues"
+    },
+    "homepage": "https://github.com/StackExchange/stacks-utils#readme",
+    "peerDependencies": {
+        "prettier": ">=2"
+    }
+}

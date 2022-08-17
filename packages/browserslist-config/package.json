@@ -1,0 +1,21 @@
+{
+    "name": "@stackoverflow/browserslist-config",
+    "version": "1.0.0",
+    "description": "Stacks Browserslist shared config",
+    "main": "index.js",
+    "author": "Stack Exchange Inc",
+    "license": "MIT",
+    "keywords": [
+        "stacks",
+        "browserslist",
+        "browserslist-config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StackExchange/stacks-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/StackExchange/stacks-utils/issues"
+    },
+    "homepage": "https://github.com/StackExchange/stacks-utils#readme"
+}

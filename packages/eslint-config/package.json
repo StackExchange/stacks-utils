@@ -1,0 +1,31 @@
+{
+    "name": "@stackoverflow/eslint-config",
+    "version": "1.0.0",
+    "description": "Stacks ESLint shared config",
+    "main": "index.js",
+    "author": "Stack Exchange Inc",
+    "license": "MIT",
+    "keywords": [
+        "stacks",
+        "eslint",
+        "eslint-config"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StackExchange/stacks-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/StackExchange/stacks-utils/issues"
+    },
+    "homepage": "https://github.com/StackExchange/stacks-utils#readme",
+    "peerDependencies": {
+        "eslint": ">=8"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.33.1",
+        "@typescript-eslint/parser": "^5.33.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-jest": "^26.8.3",
+        "eslint-plugin-no-unsanitized": "^4.0.1"
+    }
+}

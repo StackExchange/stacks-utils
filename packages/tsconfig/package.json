@@ -1,0 +1,19 @@
+{
+    "name": "@stackoverflow/tsconfig",
+    "version": "1.0.0",
+    "description": "Stacks base TSConfig file",
+    "author": "Stack Exchange Inc",
+    "license": "MIT",
+    "keywords": [
+        "stacks",
+        "tsconfig"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StackExchange/stacks-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/StackExchange/stacks-utils/issues"
+    },
+    "homepage": "https://github.com/StackExchange/stacks-utils#readme"
+}

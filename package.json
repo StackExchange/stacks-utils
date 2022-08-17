@@ -1,0 +1,41 @@
+{
+    "name": "stacks-utils",
+    "private": true,
+    "version": "1.0.0",
+    "description": "monorepo for Stacks config files and other utilities",
+    "author": "",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "lint:eslint": "eslint .",
+        "lint:prettier": "prettier --check . --end-of-line auto",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.3",
+        "eslint": "^8.22.0",
+        "husky": "^8.0.1",
+        "prettier": "^2.7.1"
+    },
+    "commitlint": {
+        "extends": [
+            "@stackoverflow/commitlint-config"
+        ]
+    },
+    "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "parserOptions": {
+            "project": [
+                "./tsconfig.json"
+            ]
+        },
+        "extends": [
+            "@stackoverflow"
+        ]
+    },
+    "prettier": "@stackoverflow/prettier-config"
+}
