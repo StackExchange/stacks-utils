@@ -9,15 +9,15 @@
         "packages/*"
     ],
     "scripts": {
-        "lint:eslint": "eslint .",
-        "lint:prettier": "prettier --check . --end-of-line auto",
+        "format": "prettier --write .",
+        "lint": "prettier --check . && eslint .",
         "prepare": "husky install"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.0.3",
-        "eslint": "^8.22.0",
-        "husky": "^8.0.1",
-        "prettier": "^2.7.1"
+        "@commitlint/cli": "^18.5.0",
+        "eslint": "^8.56.0",
+        "husky": "^8.0.3",
+        "prettier": "^3.2.4"
     },
     "commitlint": {
         "extends": [

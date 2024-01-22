@@ -9,8 +9,8 @@
         "moduleResolution": "node",
         "declaration": true,
         "skipLibCheck": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
     },
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Stacks"
+    "display": "Stacks",
 }
