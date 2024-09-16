@@ -19,6 +19,6 @@
     },
     "homepage": "https://github.com/StackExchange/stacks-utils#readme",
     "dependencies": {
-        "@commitlint/config-conventional": "^19.4.1"
+        "@commitlint/config-conventional": "^19.5.0"
     }
 }
